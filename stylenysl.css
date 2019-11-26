@@ -1,0 +1,398 @@
+/* menu-container */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #ffffff url(image/noise.png);
+	font-family: 'Montserrat';
+	line-height: 1.2;
+}
+.menu-container {
+	color: #fff;
+	background-color: #252525; /* GREY */
+	display: flex;
+	justify-content: center; /* Add this */
+	padding: 20px 0;
+}
+.menu {
+	width: 500px;
+	display: flex;
+	margin-left: auto;
+}
+.menu a {
+	font-size: 13px;
+	color: #539613;
+	text-decoration: none;
+	padding: 5px 15px;
+}
+.menu a:hover {
+	color: #ffffff;
+	border-bottom: 4px solid #539613;
+}
+.upcomingtitle h1 {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	margin-left: 180px;
+}
+h1 :hover {
+	color: #ffffff;
+	border-bottom: 3px solid #539613;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* header-container logo */
+.imagespan {
+	width: 100%;
+	z-index: 0;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+.center {
+	position: absolute;
+	top: 30%;
+	left: 12%;
+	transform: translate(-50%, -50%);
+	font-size: 45px;
+	font-family: 'Montserrat' 'Ligth';
+	color: white;
+}
+.center b {
+	position: absolute;
+	top: -20px;
+	left: -100px;
+}
+.first .logo {
+	margin-top: -2.9em;
+	padding: 0px 30px;
+	position: absolute;
+}
+.first .logo {
+	cursor: pointer;
+}
+.upcomingevent {
+	display: flex;
+	justify-content: center;
+}
+.box1 {
+	font-size: 20px;
+	width: 420px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	border: 2.5px solid #539613;
+	border-radius: 5px;
+	color: #539613;
+	justify-content: center;
+	margin: 30px;
+}
+.eventsbox1 {
+	display: flex;
+	justify-content: center;
+}
+.events1 {
+	width: 1080px;
+	background: #ebebeb;
+	align-items: center;
+	padding: 80px;
+	margin: 10px auto;
+	border-spacing: 8px;
+}
+.events1 table,
+td,
+th {
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 5px;
+	text-align: center;
+	height: 60px;
+	width: 150px;
+}
+.events1 td {
+	color: #000000;
+	font-size: 18px;
+}
+.events1 td b {
+	color: #539613;
+}
+.events1 tr:hover {
+	background-color: rgb(218, 218, 218);
+	cursor: pointer;
+}
+/* footer */
+.footer {
+	display: flex;
+	justify-content: center;
+}
+.footer1 {
+	width: 100%;
+	background: #252525;
+	color: #539613;
+	font-size: 13px;
+	padding: 10px;
+	text-align: center;
+	line-height: 1.4;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+/* about */
+.mission {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.mission {
+	width: 1080px;
+	align-items: center;
+	padding: 30px;
+	margin: 0 auto;
+}
+.mission img {
+	float: left;
+	width: 130px;
+	height: auto;
+	margin: 10px;
+}
+.mission p {
+	margin: 170px;
+	text-align: left;
+	margin: 30px;
+	font-size: 20px;
+	line-height: 1.4;
+}
+.vision {
+	display: flex;
+	justify-content: center;
+}
+.imagespan1 {
+	width: 100%;
+	z-index: 0;
+}
+.vision {
+	position: relative;
+	text-align: center;
+	width: 1080px;
+	align-items: center;
+	padding: 10px;
+	margin: 0 auto;
+}
+.vision h1 p {
+	justify-content: right;
+}
+.vision h1 {
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	font-size: 30px;
+	color: white;
+}
+.vision p {
+	position: absolute;
+	top: 150px;
+	left: 60px;
+	font-size: 16px;
+	color: white;
+	text-align: left;
+	margin: 20px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.upcomingevent2 {
+	display: flex;
+	justify-content: center;
+}
+.box2 {
+	font-size: 20px;
+	width: 420px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	border: 2.5px solid #539613;
+	border-radius: 5px;
+	color: #539613;
+	justify-content: center;
+	margin: 30px;
+}
+.generalinfo {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.generalinfo {
+	width: 1080px;
+	align-items: center;
+	padding: 30px;
+	margin: 0 auto;
+}
+.generalinfo img {
+	float: left;
+	width: 130px;
+	height: auto;
+	margin: 10px;
+}
+.generalinfo p {
+	margin: 170px;
+	text-align: left;
+	margin: 30px;
+	font-size: 20px;
+	line-height: 1.4;
+}
+.generalinfo p b {
+	color: #539613;
+}
+/* Contact */
+.eventsbox2 {
+	display: flex;
+	justify-content: center;
+}
+.eventsbox2 {
+	width: 1080px;
+	background: #ebebeb; /* grey box contact */
+	align-items: center;
+	padding: 50px;
+	margin: 60px auto;
+	border-spacing: 8px;
+}
+.boxcontact p {
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.4;
+	margin-top: -10px;
+}
+.email p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #539613;
+	text-decoration: none;
+}
+.email p a:hover {
+	color: #539613;
+	border-bottom: 3px solid #539613;
+	text-decoration: none;
+}
+.formcontact {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.formcontact input {
+	padding: 10px 40px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.message input {
+	padding: 60px 40px;
+	margin: 8px 0;
+}
+.buttonscontact button {
+	background-color: #539613;
+	border: none;
+	color: white;
+	padding: 14px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #539613;
+}
+.buttonscontact {
+	text-align: center;
+	padding: 10px;
+}
+.buttonscontact p {
+	font-size: 14px;
+	margin: 10px;
+}
+/* games-info */
+.eventsbox2 {
+	display: flex;
+	justify-content: center;
+}
+.events2 {
+	padding: 100px;
+	margin: 0 auto;
+	border-spacing: 8px;
+}
+.events2 h3 {
+	text-align: left;
+	font-size: 20px;
+	line-height: 1.4;
+	margin-top: -100px;
+}
+.events2 p {
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #539613;
+	text-decoration: none;
+}
+.sheduletable th {
+	border: 1px solid #539613;
+	background-color: #539613;
+	color: #ffffff;
+	border-radius: 3px;
+	text-align: center;
+	height: 40px;
+	width: 200px;
+}
+.sheduletable td {
+	border: 1px solid white;
+	border-radius: 3px;
+	text-align: center;
+	height: 40px;
+	width: 200px;
+}
+/* game-location */
+.rectangle {
+	display: flex;
+	justify-content: center;
+}
+.grid h3 {
+	font-size: 20px;
+	width: 420px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	border: 2.5px solid #539613;
+	border-radius: 5px;
+	color: #539613;
+	justify-content: center;
+	margin: 40px auto;
+}
+.location {
+	display: flex;
+	justify-content: center;
+}
+.location td {
+	border: 1px solid white;
+	text-align: center;
+	height: 40px;
+	width: 250px;
+}
+.location td strong {
+	color: #539613;
+	border-radius: 3px;
+	text-align: center;
+	height: 40px;
+	width: 250px;
+}
+.footertext {
+	padding: 20px 0px;
+}
+.footertext p {
+	text-align: left;
+	color: #000000;
+	font-size: 16px;
+	padding: 0px auto;
+	line-height: 2.0;
+}
+.footergame {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: left;
+}
