@@ -396,3 +396,109 @@ button:hover {
 	justify-content: space-around;
 	text-align: left;
 }
+/* nysl-rules */
+.eventsbox3 {
+	display: flex;
+	justify-content: center;
+}
+.eventsbox3 {
+	width: 1080px;
+	background: #ebebeb; /* grey box contact */
+	align-items: center;
+	padding: auto;
+	margin: 10px auto;
+}
+.textrules h3 {
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+.textrules h4 {
+	font-size: 25px;
+	color: #008000;
+	text-align: left;
+	margin: 20px;
+}
+.textrules p {
+	text-align: justify;
+	font-size: 10x;
+	margin: 20px;
+	line-height: 1.5;
+}
+.fields {
+	list-style-type: lower-alpha;
+}
+ol {
+	padding: 10px;
+	margin: 10px 30px;
+}
+.infoselected {
+	list-style-type: square;
+}
+#allplay {
+	list-style-type: circle;
+}
+.areastyle {
+	width: 1080px;
+	background-color: white;
+	padding: 20px;
+}
+.areastyle h4 {
+	text-align: left;
+	margin: 0px;
+}
+/* registration-form */
+.eventsbox4 {
+	display: flex;
+	justify-content: center;
+}
+.eventsbox4 {
+	width: 1080px;
+	background: #ebebeb; /* grey box contact */
+	align-items: center;
+	padding: auto;
+	margin: 10px auto;
+}
+.formtitle {
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+label {
+	padding: 12px 12px 12px 12px;
+	display: inline-block;
+	align-items: center;
+}
+.firstp p {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+	margin: 20px;
+}
+.selectstyle {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.selectstyle p {
+	font-size: 14px;
+	color: #008000;
+}
+.secondp p {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+	margin: 20px;
+}
+/* second part of form */
+.firstcheckbox {
+	display: flex;
+	justify-content: center;
+}
+.firstcheckbox td {
+	color: #539613;
+	border-radius: 3px;
+	text-align: center;
+	height: 40px;
+	width: 300px;
+}

@@ -40,26 +40,93 @@
 				</div>
 			</div>
 			<article>
-			<div class="eventsbox2">
+					<div class="upcomingevent">
+							<div class="box1">
+								<h1>REGISTRATION</h1>
+							</div>
+						</div>
+			<div class="eventsbox4">
 		<div class="boxcontact" >
-		<p>Please use the form below to direct your query or<br> comments to the relevant person.</p><br> 
-		<div class="email"><p>Alternatively you can email us at:<br> <a href="mailto:nysl@chisoccer.org">nysl@chisoccer.org </a></p></div>
-			<div class="formcontact">
-					<form name="myform" action="/action_page.php" target="_blank">
-						<input name="name" placeholder="Name" class="lg-input" /><br />
-						<input name="email" placeholder="Email" class="lginput" /><br />
-						<input name="contact" placeholder="Phone Number" class="sm-input" />
-							<br />
-							<input name="subject" placeholder="Subject" class="lg-input" /> <br />
-							<div class="message">
-									<input name="message" placeholder="Message" class="sm-input" />
-								  </div>
+				<div class="registrationbox">
+						<div>
+							<h4  class="formtitle">REGISTRATION FORM</h4>
+							</div>
+						<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+							<form>
+							<label for="fname">Name:</label>
+							<input name="name" placeholder="Name" class="lg-input" />
+							<label for="flname">Last Name:</label>
+							<input name="lastname" placeholder="Last Name" class="lg-input" /><br />
+							<label for="fsaddress">Street Address:</label>
+							<input name="streetaddress" placeholder="Street Address" class="lg-input" /><br />
+							<label for="fcity">City:</label>
+							<input name="city" placeholder="City" class="lg-input" />
+							<label for="fzcode">Zip Code:</label>
+							<input name="zipcode" placeholder="Zip Code" class="lg-input" /><br />
+							<label for="fbdate">Birth Date:</label>
+							<input name="birthdate" placeholder="Birth Date" class="lg-input" /><br>
+							<label for="fgender">Gender:</label>
+							<input name="gender" type="radio" value="Female" /> Female
+							<input name="gender" type="radio" value="Male" /> Male<br />
+							<label for="fgrade">Grade:</label>
+							<input name="Grade" type="radio" value="pre-school" /> Pre-School
+							<input name="Grade" type="radio" value="first" /> 1<sup>st</sup>
+							<input name="Grade" type="radio" value="second" /> 2<sup>nd</sup>
+							<input name="Grade" type="radio" value="third" /> 3<sup>rd</sup>
+							<input name="Grade" type="radio" value="fourth" /> 4<sup>th</sup>
+							<input name="Grade" type="radio" value="fifth" /> 5<sup>th</sup><br />
+							<label for="fpg">Parent/Guardian:</label>
+							<input name="parent/guardian" placeholder="Parent/Guardian" class="lg-input" /><br />
+							<label for="fcphone">Contact Phone:</label>
+							<input name="Contact Phone" placeholder="Contact Phone" class="lg-input" />
+							<label for="fcemail">Contact Email:</label>
+							<input name="contact email" placeholder="Contact Email" class="lg-input" />
+						</form>
+						<div class="firstp">
+						<p><strong>Which elementary schools do you live near?</strong></p>
+					</div>
+						<div class="selectstyle">
+								<div class="firstselect">    
+								<p><strong>First Closest School:</strong></p> 
+								<select name="firstschool">
+									<option value="" selected disabled>Please select a school</option>
+									<option value="AJ Katzenmaier" >AJ Katzenmaier</option>
+									<option value="Greenbay">Greenbay</option>
+									<option value="Howard A Yeager">Howard A Yeager</option>
+									<option value="Marjorie P Hart" >Marjorie P Hart</option>
+									<option value="North Elementary" >North Elementary</option>
+									<option value=" South Elementary" >South Elementary</option>
+								</select>
+									</div>
+									<div class="secondselect">
+								<p><strong>Second Closest School:</strong></p>
+								<select name="secondschool">
+									<option value="" selected disabled>Please select a school</option>
+									<option value="AJ Katzenmaier" >AJ Katzenmaier</option>
+									<option value="Greenbay">Greenbay</option>
+									<option value="Howard A Yeager">Howard A Yeager</option>
+									<option value="Marjorie P Hart" >Marjorie P Hart</option>
+									<option value="North Elementary" >North Elementary</option>
+									<option value="South Elementary" >South Elementary</option>
+								</select>
+									 </div>
+									</div>
+									<div class="secondp">
+									<p><strong>What position(s) do you want to play?</strong><small>(check all that apply)</small></p>
 								</div>
-								  <div class="buttonscontact">
-										<button class="button">Submit</button>
-										<p><small>Will reply to your email as soon as we can.</small></p>
-									  </div>
-					</form>
+								<table class="firstcheckbox">
+										<tr>
+										   <td><input type="checkbox">Forward</td>
+										   <td><input type="checkbox">Midfield</td>
+										</tr>
+										 <tr>
+										   <td><input type="checkbox">Defense</td>
+										   <td><input type="checkbox">Goalkeeper</td>
+										</tr>
+									</table>
+	<div class="clear"></div>
+</div>
+</div>
 			</div>
 	</div>
 </article>
