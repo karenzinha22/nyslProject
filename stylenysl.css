@@ -13,7 +13,7 @@ body {
 	color: #fff;
 	background-color: #252525; /* GREY */
 	display: flex;
-	justify-content: center; /* Add this */
+	justify-content: center;
 	padding: 20px 0;
 }
 .menu {
@@ -98,6 +98,9 @@ h1 :hover {
 	padding: 80px;
 	margin: 10px auto;
 	border-spacing: 8px;
+}
+.events1 {
+	box-shadow: 0 10px 12px 0 rgba(119, 119, 119, 0.24), 0 14px 30px 0 rgba(39, 39, 39, 0.19);
 }
 .events1 table,
 td,
@@ -251,6 +254,9 @@ th {
 	padding: 50px;
 	margin: 60px auto;
 	border-spacing: 8px;
+}
+.eventsbox2 {
+	box-shadow: 0 10px 12px 0 rgba(119, 119, 119, 0.24), 0 14px 30px 0 rgba(39, 39, 39, 0.19);
 }
 .boxcontact p {
 	text-align: center;
@@ -408,20 +414,29 @@ button:hover {
 	padding: auto;
 	margin: 10px auto;
 }
+.eventsbox3 {
+	box-shadow: 0 10px 12px 0 rgba(119, 119, 119, 0.24), 0 14px 30px 0 rgba(39, 39, 39, 0.19);
+}
+.textrules {
+	width: 900px;
+	align-items: center;
+	padding: 30px;
+	margin: 0 auto;
+}
 .textrules h3 {
 	margin-top: 20px;
 	font-size: 20px;
 	text-align: center;
 }
 .textrules h4 {
-	font-size: 25px;
+	font-size: 20px;
 	color: #008000;
 	text-align: left;
 	margin: 20px;
 }
 .textrules p {
 	text-align: justify;
-	font-size: 10x;
+	font-size: 9x;
 	margin: 20px;
 	line-height: 1.5;
 }
@@ -429,23 +444,15 @@ button:hover {
 	list-style-type: lower-alpha;
 }
 ol {
-	padding: 10px;
-	margin: 10px 30px;
+	padding-left: 40px;
+	font-size: 13px;
+	margin: 10px 20px;
 }
 .infoselected {
 	list-style-type: square;
 }
 #allplay {
 	list-style-type: circle;
-}
-.areastyle {
-	width: 1080px;
-	background-color: white;
-	padding: 20px;
-}
-.areastyle h4 {
-	text-align: left;
-	margin: 0px;
 }
 /* registration-form */
 .eventsbox4 {
@@ -459,10 +466,18 @@ ol {
 	padding: auto;
 	margin: 10px auto;
 }
+.eventsbox4 {
+	box-shadow: 0 10px 12px 0 rgba(119, 119, 119, 0.24), 0 14px 30px 0 rgba(39, 39, 39, 0.19);
+}
 .formtitle {
 	margin-top: 20px;
 	font-size: 20px;
 	text-align: center;
+}
+.formtitle h4 {
+	font-size: 20px;
+	margin-bottom: 20px;
+	line-height: 1.5;
 }
 label {
 	padding: 12px 12px 12px 12px;
@@ -482,23 +497,110 @@ label {
 }
 .selectstyle p {
 	font-size: 14px;
-	color: #008000;
+	color: #539613;
 }
 .secondp p {
 	font-size: 16px;
 	color: #000000;
 	text-align: left;
-	margin: 20px;
+	margin: 10px;
+	padding: 10px;
 }
 /* second part of form */
 .firstcheckbox {
 	display: flex;
 	justify-content: center;
 }
+.firstcheckbox {
+	border-collapse: separate;
+	border-spacing: 12px;
+	margin: 10px;
+}
 .firstcheckbox td {
-	color: #539613;
+	color: #000000;
 	border-radius: 3px;
 	text-align: center;
 	height: 40px;
 	width: 300px;
+}
+.thirdp p {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+	margin: 10px;
+	padding: 10px;
+}
+.secondcheckbox {
+	display: flex;
+	justify-content: center;
+}
+.secondcheckbox {
+	border-collapse: separate;
+	border-spacing: 8px;
+	margin: 10px;
+}
+.secondcheckbox th {
+	color: #539613;
+	font-size: 18px;
+}
+.secondcheckbox td {
+	color: #000000;
+	border-radius: 3px;
+	text-align: center;
+}
+/* last-part-of-form */
+.areastyle2 {
+	width: 1080px;
+	background: #539613; /* grey box contact */
+	align-items: center;
+	padding: auto;
+	margin: 0px auto;
+}
+.areastyle2 {
+	box-shadow: 0 10px 12px 0 rgba(119, 119, 119, 0.24), 0 14px 30px 0 rgba(39, 39, 39, 0.19);
+}
+.permission {
+	width: 700px;
+	align-items: center;
+	padding: 20px;
+	margin: 0 auto;
+}
+.permission h4 {
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	color: #ffffff;
+}
+.permission p {
+	font-size: 14px;
+	line-height: 1.5;
+	color: #ffffff;
+	text-align: justify;
+	margin: 10px;
+	padding: 10px;
+}
+.halfwide {
+	display: inline-block;
+	align-content: space-between;
+	padding: 20px 40px;
+	font-size: 14px;
+	color: white;
+}
+.buttons button {
+	background-color: #252525;
+	border: none;
+	color: white;
+	padding: 14px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #1a1a1a;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.buttons {
+	text-align: center;
+	padding: 20px;
 }
