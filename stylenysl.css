@@ -52,9 +52,9 @@ h1 :hover {
 .center {
 	position: absolute;
 	top: 30%;
-	left: 12%;
+	left: 10%;
 	transform: translate(-50%, -50%);
-	font-size: 45px;
+	font-size: 35px;
 	font-family: 'Montserrat' 'Ligth';
 	color: white;
 }
@@ -78,14 +78,13 @@ h1 :hover {
 .box1 {
 	font-size: 20px;
 	width: 420px;
-	height: 80px;
+	height: 50px;
 	display: flex;
 	align-items: center;
-	border: 2.5px solid #539613;
-	border-radius: 5px;
+	border-radius: 3px;
 	color: #539613;
 	justify-content: center;
-	margin: 30px;
+	margin: 20px;
 }
 .eventsbox1 {
 	display: flex;
@@ -95,8 +94,8 @@ h1 :hover {
 	width: 1080px;
 	background: #ebebeb;
 	align-items: center;
-	padding: 80px;
-	margin: 10px auto;
+	padding: 60px;
+	margin: 30px auto;
 	border-spacing: 8px;
 }
 .events1 {
@@ -204,26 +203,23 @@ th {
 	justify-content: center;
 }
 .box2 {
-	font-size: 20px;
+	font-size: 25px;
 	width: 420px;
 	height: 80px;
 	display: flex;
 	align-items: center;
-	border: 2.5px solid #539613;
-	border-radius: 5px;
 	color: #539613;
 	justify-content: center;
-	margin: 30px;
+	margin: 5px;
 }
 .generalinfo {
 	display: flex;
 	justify-content: center;
-	margin: 0 auto;
 }
 .generalinfo {
 	width: 1080px;
 	align-items: center;
-	padding: 30px;
+	padding: 10px;
 	margin: 0 auto;
 }
 .generalinfo img {
@@ -243,16 +239,28 @@ th {
 	color: #539613;
 }
 /* Contact */
+
+.box1 {
+	font-size: 20px;
+	width: 420px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	border-radius: 3px;
+	color: #539613;
+	justify-content: center;
+	margin: 20px;
+}
 .eventsbox2 {
 	display: flex;
 	justify-content: center;
 }
 .eventsbox2 {
 	width: 1080px;
-	background: #ebebeb; /* grey box contact */
+	background: #ebebeb;
 	align-items: center;
 	padding: 50px;
-	margin: 60px auto;
+	margin: 20px auto;
 	border-spacing: 8px;
 }
 .eventsbox2 {
@@ -320,7 +328,7 @@ button:hover {
 }
 .events2 {
 	padding: 100px;
-	margin: 0 auto;
+	margin: 20 auto;
 	border-spacing: 8px;
 }
 .events2 h3 {
@@ -358,16 +366,15 @@ button:hover {
 	justify-content: center;
 }
 .grid h3 {
-	font-size: 20px;
+	font-size: 30px;
 	width: 420px;
 	height: 80px;
 	display: flex;
 	align-items: center;
-	border: 2.5px solid #539613;
 	border-radius: 5px;
 	color: #539613;
 	justify-content: center;
-	margin: 40px auto;
+	margin: 30px auto;
 }
 .location {
 	display: flex;
@@ -412,7 +419,7 @@ button:hover {
 	background: #ebebeb; /* grey box contact */
 	align-items: center;
 	padding: auto;
-	margin: 10px auto;
+	margin: 20px auto;
 }
 .eventsbox3 {
 	box-shadow: 0 10px 12px 0 rgba(119, 119, 119, 0.24), 0 14px 30px 0 rgba(39, 39, 39, 0.19);
@@ -464,19 +471,19 @@ ol {
 	background: #ebebeb; /* grey box contact */
 	align-items: center;
 	padding: auto;
-	margin: 10px auto;
+	margin: 20px auto;
 }
 .eventsbox4 {
 	box-shadow: 0 10px 12px 0 rgba(119, 119, 119, 0.24), 0 14px 30px 0 rgba(39, 39, 39, 0.19);
 }
 .formtitle {
-	margin-top: 20px;
+	margin-top: 40px;
 	font-size: 20px;
 	text-align: center;
 }
 .formtitle h4 {
 	font-size: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	line-height: 1.5;
 }
 label {
